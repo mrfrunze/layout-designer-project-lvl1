@@ -432,7 +432,7 @@ a{
 }
 
 .footer-inner {
-   padding: 55px 55px 40px 55px;
+   padding: 38px 55px 40px 55px;
    background: #42413C;
    display: flex;
    flex-wrap: wrap;
@@ -469,7 +469,7 @@ a{
 
 .form-block > input{
    height: 50px;
-   padding: 15px;
+   padding: 17px 0 18px 15px;
    width: 423px;
 }
 
