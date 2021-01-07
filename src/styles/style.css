@@ -180,7 +180,7 @@ a{
 }
 
 .header-inner-text {
-   max-width: 535px;
+   width: 48%;
 }
 
 .header-inner-text p{
@@ -360,7 +360,6 @@ a{
 .inner-title {
    margin-bottom: 30px;
    font-weight: 400;
-   font-size: 59px;
 }
 
 .block-text {
@@ -430,11 +429,11 @@ a{
 }
 
 .footer-inner {
-   padding: 38px 55px 40px 55px;
+   padding:55px;
    background: #42413C;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .footer-inner-text {
@@ -443,6 +442,11 @@ a{
 
 .footer-inner-form{
    max-width:485px;
+}
+
+.form-footer {
+   display: flex;
+   flex-direction: column;
 }
 
 .form-footer label{
@@ -466,9 +470,8 @@ a{
 }
 
 .form-block > input{
-   height: 50px;
-   padding: 17px 0 18px 15px;
-   width: 423px;
+   padding: 15px 0 18px 15px;
+   width: 415px;
 }
 
 .btn-footer{
