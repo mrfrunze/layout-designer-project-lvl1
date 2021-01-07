@@ -148,7 +148,6 @@ a{
    bottom: 0;
    background-image: url(../images/background.png);
    background-repeat: no-repeat;
-   opacity: 0.06;
 }
 
 .header-img {
@@ -328,7 +327,6 @@ a{
    left: 0;
    background-image:url(../images/background.png);
    background-repeat:no-repeat;
-   opacity: 0.06;
 }
 
 .flex-block {
