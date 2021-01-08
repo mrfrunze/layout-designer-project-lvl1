@@ -127,12 +127,13 @@ a{
    --size:1100px;
    max-width: var(--size);
    margin: 0px auto;
-   position: relative;
+   /* position: relative; */
 }
 
 .header{
    padding: 100px 0;
    background: var(--color-light);
+   overflow: hidden;
 }
 
 .header-bg{
@@ -148,14 +149,15 @@ a{
    bottom: 0;
    background-image: url(../images/background.png);
    background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .header-img {
    position: absolute;
     max-height: 525px;
     max-width: 100%;
-    top: -55px;
-    right: -290px;
+    top: 55px;
+    right: -55px;
 }
 
 .header-img img{
@@ -189,6 +191,7 @@ a{
 /* video */
 .video-block{
    position: relative;
+   overflow: hidden;
 }
 
 .video-title{
@@ -372,7 +375,6 @@ a{
    font-family: Open Sans;
    font-weight: bold;
    font-size: 14px;
-   line-height: 17px;
    padding: 5px 0 5px 10px;
    text-transform: uppercase;
 }
