@@ -546,16 +546,13 @@ a{
 }
 
 .footer-inner-text{
-   max-width: 390px;
-}
-
-.footer-inner-form {
-   max-width: 390px;
+   max-width: 380px;
 }
 
 .form-footer{
    display: flex;
    flex-direction: column;
+   width: 490px;
 }
 
 .form-footer label{
@@ -569,7 +566,7 @@ a{
 .form-block input{
    border: none;
    height: 50px;
-   width: 320px;
+   width:100%;
 }
 
 ::placeholder{
